@@ -8,7 +8,10 @@ class MainActivity2 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main2)
-        //val input_connexion =
+        val Button: Button = findViewById(R.id.id_button)
+
+
+
     }
 
 
