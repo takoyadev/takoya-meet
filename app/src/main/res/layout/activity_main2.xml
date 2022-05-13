@@ -65,6 +65,7 @@
 
         <Button
             android:id="@+id/id_button"
+
             android:layout_width="160dp"
             android:layout_height="45dp"
             android:layout_marginLeft="130dp"
