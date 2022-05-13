@@ -6,55 +6,72 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity2">
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="781dp"
-        android:layout_height="799dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/google_pixel_3xl__1" />
+        tools:layout_editor_absoluteY="-84dp">
 
-    <EditText
-        android:id="@+id/editTextTextEmailAddress"
-        android:layout_width="265dp"
-        android:layout_height="48dp"
-        android:ems="10"
-        android:inputType="textEmailAddress"
-        android:minHeight="48dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.568"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.348" />
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="800dp"
+            android:layout_marginTop="14dp"
+            app:srcCompat="@drawable/google_pixel_3xl__1" />
+    </LinearLayout>
 
-    <EditText
-        android:id="@+id/editTextNumberPassword"
-        android:layout_width="261dp"
-        android:layout_height="52dp"
-        android:layout_marginTop="24dp"
-        android:ems="10"
-        android:inputType="numberPassword"
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.58"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toTopOf="parent">
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="160dp"
-        android:layout_height="45dp"
-        android:text="Conexion"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.537"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNumberPassword"
-        app:layout_constraintVertical_bias="0.051" />
+        <EditText
+            android:id="@+id/id_login"
+            android:layout_width="280dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="75dp"
+            android:layout_marginTop="350dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginRight="70dp"
+            android:layout_marginBottom="0dp"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:minHeight="48dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/id_pass"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginStart="75dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="60dp"
+            android:ems="10"
+            android:inputType="numberPassword"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/id_login" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="160dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="70dp"
+            android:text="Conexion" />
+
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
