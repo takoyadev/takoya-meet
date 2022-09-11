@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "562251529630",
+    "firebase_url": "https://takoya-meet.firebaseio.com",
+    "project_id": "takoya-meet",
+    "storage_bucket": "takoya-meet.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:562251529630:android:79761ae1a974c0b789aa8f",
+        "android_client_info": {
+          "package_name": "com.example.takoyadev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "562251529630-uq9n9lscjdk0ka5lq7vm8e2gpp1asqrp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGIUkxlu7hA4gBF4nkY-jXKkPyyQ4Pa3w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "562251529630-uq9n9lscjdk0ka5lq7vm8e2gpp1asqrp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
